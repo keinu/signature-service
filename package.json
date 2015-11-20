@@ -1,0 +1,24 @@
+{
+  "name": "signature-service",
+  "version": "1.0.0",
+  "description": "Signature service for S3 asset upload / download",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Xabi Errotabehere",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.4",
+    "timekeeper": "0.0.5",
+    "urijs": "^1.17.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.18",
+    "bluebird": "^3.0.5",
+    "crypto-js": "^3.1.5",
+    "moment": "^2.10.6"
+  }
+}
